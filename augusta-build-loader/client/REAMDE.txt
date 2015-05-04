@@ -1,0 +1,21 @@
+The Client Scripts for Augusta Build Loader
+
+== Setup ==
+
+Edit setenv.bat first to configure your environment.
+
+You can click help.bat for more details.
+
+== Usage ==
+
+1. Simple operations:
+    install.bat
+	start.bat
+	shutdown.bat
+	revert.bat
+	clean-vm.bat
+	list-build.bat
+	list-profile.bat	
+
+2. Open a command prompt window to run the CLI tool, for example:
+    augusta-loader install User -b 2014-02-25_02-00-33

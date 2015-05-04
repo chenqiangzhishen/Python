@@ -1,0 +1,7 @@
+
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+28 7    * * *   root    /opt/augusta-loader/bin/augusta-loader.py install all > /opt/augusta-loader/log/cron.log 2>&1
+28 19   * * *   root    /opt/augusta-loader/bin/augusta-loader.py clean-vm --keep 3 all > /opt/augusta-loader/log/cron-cleanvm.log 2>&1
+28 21   * * *   root    /opt/augusta-loader/bin/augusta-loader.py clean-build --keep 5 > /opt/augusta-loader/cron-cleanbuild.log 2>&1

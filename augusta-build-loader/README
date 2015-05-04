@@ -1,0 +1,19 @@
+Augusta Build Loader 1.2 REAMDE
+
+This tool is the build image loader for IBM Augusta project.
+
+== Installation ==
+
+1. Extract the package on your server file system, such as '/opt/augusta-loader'.
+
+2. Execute 'install.py' to install Build Loader to your system.
+
+3. Edit 'augusta-loader.py' to configure your server environment.
+
+
+Augusta Build Loader 1.1 -- Fix
+1. Add one more dhcp virtual adapter
+2. Fix for new build
+
+Augusta Build Loader 1.2 -- Fix
+1. Add support for chenas, chenas-plus, bandol
